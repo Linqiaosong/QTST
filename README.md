@@ -23,9 +23,9 @@ iOS尚不支持
 
 安装gcc 4.6以上版本。
 
-将mingw64/bin目录加入PATH：[方法教程](https://blog.csdn.net/Flood_Dragon/article/details/12363705)
+将```mingw64/bin```目录加入PATH：[方法教程](https://blog.csdn.net/Flood_Dragon/article/details/12363705)
 
-下载```source```文件夹中的源码，将```makefile```文件夹中```makefile.win64.mk```复制到source文件夹，并修改文件名为```makefile```。
+下载```source```文件夹中的源码，将```makefile```文件夹中```makefile.win64.mk```复制到```source```文件夹，并修改文件名为```makefile```。
 
 在当前目录下启动命令提示符或PowerShell，运行```mingw32-make```，编译完成将在当前目录下生成```QD.exe```二进制文件。
 
@@ -48,7 +48,7 @@ iOS尚不支持
 #### 方法2：使用GCC编译器编译源码
 要求安装有GCC 4.6以上版本，可以在终端中通过```gcc -v```来查看系统自带GCC编译器版本。
 
-下载```source```文件夹中的源码，将```makefile```文件夹中```makefile.linux.mk```复制到source文件夹，并修改文件名为```makefile```。
+下载```source```文件夹中的源码，将```makefile```文件夹中```makefile.linux.mk```复制到```source```文件夹，并修改文件名为```makefile```。
 
 在当前目录下启动终端，运行```make```，编译完成将在当前目录下生成```QD```二进制文件。
 
@@ -57,7 +57,7 @@ iOS尚不支持
 #### 方法：使用Clang编译器编译源码
 要求安装有Clang 3.1以上版本，可以通过```clang --version```来查看系统自带Clang编译器版本。
 
-下载```source```文件夹中的源码，将```makefile```文件夹中```makefile.macos.mk```复制到source文件夹，并修改文件名为```makefile```。
+下载```source```文件夹中的源码，将```makefile```文件夹中```makefile.macos.mk```复制到```source```文件夹，并修改文件名为```makefile```。
 
 在当前目录下启动终端，运行```make```，编译完成将在当前目录下生成```QD```二进制文件。
 
@@ -82,3 +82,4 @@ iOS尚不支持
 #### (1)计算原理
 #### (2)输入参数
 #### (3)计算实例
+## 四、量子动力学计算库
