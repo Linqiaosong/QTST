@@ -19,9 +19,9 @@ iOS尚不支持
 #### 方法1：下载二进制文件
 下载Windows的可执行文件```QD_1_0_win64.exe```，直接运行。
 #### 方法2：使用GCC编译器编译源码
-下载mingw64-gcc: [下载地址](https://sourceforge.net/projects/mingw-w64/files/latest/download)
+下载[mingw64-gcc](https://sourceforge.net/projects/mingw-w64/files/latest/download)。
 
-安装gcc 4.6以上版本
+安装gcc 4.6以上版本。
 
 将mingw64/bin目录加入PATH：[方法教程](https://blog.csdn.net/Flood_Dragon/article/details/12363705)
 
@@ -31,9 +31,9 @@ iOS尚不支持
 
 运行```QD.exe```即可。
 #### 方法3：使用Microsoft Visual Studio编译源码
-下载Microsoft Visual Studio 2019: [下载地址](https://visualstudio.microsoft.com/zh-hans/downloads/)
+下载[Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/zh-hans/downloads/)。
 
-下载```source```文件夹中的源码，通过文本编辑器（如：Visual Studio Code, Vim, Notepad++等）将源码的文字编码由UTF-8改为GBK。
+下载```source```文件夹中的源码，通过文本编辑器（如：[Visual Studio Code](https://code.visualstudio.com/), [Vim](https://www.vim.org/), [Notepad++](https://notepad-plus-plus.org/)等）将源码的文字编码由UTF-8改为GBK。
 
 使用Microsoft Visual Studio新建空项目，将源码的.cpp文件和.h文件分别导入空项目，然后编译整个项目，编译完成将生成```main.exe```二进制文件。
 
@@ -46,7 +46,26 @@ iOS尚不支持
 
 使用```./QD_1_0_linux```运行软件
 #### 方法2：使用GCC编译器编译源码
+要求安装有GCC 4.6以上版本，可以在终端中通过```gcc -v```来查看系统自带GCC编译器版本。
+
+下载```source```文件夹中的源码，将```makefile```文件夹中```makefile.linux.mk```复制到source文件夹，并修改文件名为```makefile```。
+
+在当前目录下启动终端，运行```make```，编译完成将在当前目录下生成```QD```二进制文件。
+
+运行```./QD```即可。
 ### 3. MacOS
 #### 方法：使用Clang编译器编译源码
+要求安装有Clang 3.1以上版本，可以通过```clang --version```来查看系统自带Clang编译器版本。
+
+下载```source```文件夹中的源码，将```makefile```文件夹中```makefile.macos.mk```复制到source文件夹，并修改文件名为```makefile```。
+
+在当前目录下启动终端，运行```make```，编译完成将在当前目录下生成```QD```二进制文件。
+
+运行```./QD```即可。
 ### 4. Android
 #### 方法：借助C4droid使用源码
+下载安装```C4droid 5.96```及以上版本，```GCC for C4droid 6.1.0```及以上版本，```SDL plugin for C4droid 2.0.4```及以上版本。
+
+修改C4droid默认编译器为g++编译器，修改g++编译器参数```-std=c++11```或更高C++语言标准。
+
+下载```QD_1_0_android.cpp```文件，用C4droid打开，编译运行。
