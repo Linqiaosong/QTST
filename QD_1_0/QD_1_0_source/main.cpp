@@ -188,7 +188,6 @@ int main()
             std::cout<<"\t\t*请输入反应路径简并数*"<<std::endl;
             std::cout<<"\t*如果计算自由能或配分函数时已经进行了对称简并校正，则此处填1*"<<std::endl;
             std::cout<<"反应路径简并数=反应物转动对称数/过渡态转动对称数"<<std::endl;
-            std::cout<<"例：过渡态有一个2重旋转轴，反应物有一个3重旋转轴，输入：1.5"<<std::endl;
             double sigma;
             std::cin>>sigma;
 
@@ -349,7 +348,6 @@ int main()
             std::cout<<"\t\t*请输入反应路径简并数*"<<std::endl;
             std::cout<<"\t*如果计算自由能或配分函数时已经进行了对称简并校正，则此处填1*"<<std::endl;
             std::cout<<"反应路径简并数=反应物转动对称数乘积/过渡态转动对称数"<<std::endl;
-            std::cout<<"例：过渡态有一个2重旋转轴，反应物A有一个3重旋转轴，反应物B有一个2重旋转轴，输入：3"<<std::endl;
             double sigma;
             std::cin>>sigma;
 
