@@ -35,9 +35,7 @@ iOS尚不支持
 
 下载```source```文件夹中的源码，通过文本编辑器（如：[Visual Studio Code](https://code.visualstudio.com/), [Vim](https://www.vim.org/), [Notepad++](https://notepad-plus-plus.org/)等）将源码的文字编码由UTF-8改为GBK。
 
-使用Microsoft Visual Studio新建空项目，将源码的.cpp文件和.h文件分别导入空项目，然后编译整个项目，编译完成将生成```main.exe```二进制文件。
-
-运行```main.exe```即可。
+使用Microsoft Visual Studio新建空项目，将源码的.cpp文件和.h文件分别导入空项目，然后编译整个项目，编译完成将生成二进制文件。
 ### 2. Linux
 #### 方法1：下载二进制文件
 下载Linux的二进制文件```QD_1_0_linux```
