@@ -1,5 +1,5 @@
 # 1. QD 量子动力学计算软件
-<img src="http://chart.googleapis.com/chart?cht=tx x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
 
 最新版本 v1.3
 --
