@@ -35,7 +35,7 @@ iOS尚不支持
 
 将```mingw64/bin```目录加入PATH：[方法教程](https://blog.csdn.net/Flood_Dragon/article/details/12363705)
 
-下载```source```文件夹中的源码，将```make_file```文件夹中```makefile.win64.mk```复制到```source```文件夹，并修改文件名为```makefile```。
+下载```QD_1_2_source```文件夹中的源码，将```make_file```文件夹中```makefile.win64.mk```复制到```source```文件夹，并修改文件名为```makefile```。
 
 在当前目录下启动命令提示符或PowerShell，运行```mingw32-make```，编译完成将在当前目录下生成```QD.exe```二进制文件。
 
@@ -43,20 +43,20 @@ iOS尚不支持
 #### 方法3：使用Microsoft Visual Studio编译源码
 下载[Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/zh-hans/downloads/)。
 
-下载```source```文件夹中的源码，通过文本编辑器（如：[Visual Studio Code](https://code.visualstudio.com/), [Vim](https://www.vim.org/), [Notepad++](https://notepad-plus-plus.org/)等）将源码的文字编码由UTF-8改为GBK。
+下载```QD_1_2_source```文件夹中的源码，通过文本编辑器（如：[Visual Studio Code](https://code.visualstudio.com/), [Vim](https://www.vim.org/), [Notepad++](https://notepad-plus-plus.org/)等）将源码的文字编码由UTF-8改为GBK。
 
 使用Microsoft Visual Studio新建空项目，将源码的.cpp文件和.h文件分别导入空项目，然后编译整个项目，编译完成将生成二进制文件。
 ### 2. Linux
 #### 方法1：下载二进制文件
 下载Linux的二进制文件```QD_1_1_linux```
 
-使用```chmod +x QD_1_1_linux```赋予可执行权限
+使用```chmod +x QD_1_2_linux```赋予可执行权限
 
-使用```./QD_1_1_linux```运行软件
+使用```./QD_1_2_linux```运行软件
 #### 方法2：使用GCC编译器编译源码
 要求安装有GCC 4.6以上版本，可以在终端中通过```gcc -v```来查看系统自带GCC编译器版本。
 
-下载```source```文件夹中的源码，将```make_file```文件夹中```makefile.linux.mk```复制到```source```文件夹，并修改文件名为```makefile```。
+下载```QD_1_2_source```文件夹中的源码，将```make_file```文件夹中```makefile.linux.mk```复制到```source```文件夹，并修改文件名为```makefile```。
 
 在当前目录下启动终端，运行```make```，编译完成将在当前目录下生成```QD```二进制文件。
 
@@ -65,7 +65,7 @@ iOS尚不支持
 #### 方法：使用Clang编译器编译源码
 要求安装有Clang 3.1以上版本，可以通过```clang --version```来查看系统自带Clang编译器版本。
 
-下载```source```文件夹中的源码，将```make_file```文件夹中```makefile.macos.mk```复制到```source```文件夹，并修改文件名为```makefile```。
+下载```QD_1_2_source```文件夹中的源码，将```make_file```文件夹中```makefile.macos.mk```复制到```source```文件夹，并修改文件名为```makefile```。
 
 在当前目录下启动终端，运行```make```，编译完成将在当前目录下生成```QD```二进制文件。
 
@@ -76,7 +76,7 @@ iOS尚不支持
 
 修改C4droid默认编译器为g++编译器，修改g++编译器参数```-std=c++11```或更高C++语言标准。
 
-下载```QD_1_1_android.cpp```文件，用C4droid打开，编译运行。
+下载```QD_1_2_android.cpp```文件，用C4droid打开，编译运行。
 
 
 # 量子动力学计算库
@@ -84,9 +84,9 @@ QD使用了量子动力学计算库，计算库内提供了量子隧穿效应、
 
 ## 最新版本v1.1
 ## 获取和使用量子动力学计算库
-下载源码中的```QDynamic.h```和```QDynamic.cpp```文件，使用时将其加入头文件中：
+下载```QD_1_2_source```源码中的```QDynamic.h```和```QDynamic.cpp```文件，使用时将其加入头文件中：
 ```c++
 #include"QDynamic.h"
 ```
 
-具体函数请参看```QDynamic.h```文件
+具体函数请参看```QDynamic.h```文件。
