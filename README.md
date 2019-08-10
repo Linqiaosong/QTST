@@ -1,5 +1,4 @@
 # 1. QD 量子动力学计算软件
-<img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
 
 最新版本 v1.3
 --
