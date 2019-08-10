@@ -401,7 +401,7 @@ int main()
     std::cout<<"\t  QD v1.3 量子动力学计算软件"<<std::endl;
     std::cout<<"\t\t Qiaosong Lin"<<std::endl;
     std::cout<<"\t    Wuhan University, 2019"<<std::endl;
-    std::cout<<"若使用了本软件，请引用：\nQ. Lin,QD v1.2,https://github.com/Linqiaosong/QD"<<std::endl;
+    std::cout<<"若使用了本软件，请引用：\nQ. Lin,QD v1.3,https://github.com/Linqiaosong/QD"<<std::endl;
     std::cout<<"====================================================="<<std::endl;
     std::cout<<std::endl;
     std::cout<<"====================================================="<<std::endl;
