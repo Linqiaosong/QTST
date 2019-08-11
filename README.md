@@ -23,10 +23,17 @@
 
 # 1. QD 量子动力学计算软件
 
-最新版本 v1.3
+最新版本 v1.4
 --
 
 ## 1.1. 版本更新记录
+v1.4
+* 更新了UI，更正了一些错误显示
+* 更新了使用手册，在```QD_1_4_manual```文件夹下
+    * ```QD_1_4_manual.md```手册需要使用安装了Markdown All in One插件的Visual Studio Code查看。
+    * ```QD_1_4_manual.html```
+    * ```QD_1_4_manual.pdf```
+
 v1.3
 * 更新了UI，更正了一些错误显示
 * 更新了文件目录
@@ -57,7 +64,7 @@ QD是基于C++开发的量子过渡态理论动力学计算软件，使用C++11�
 iOS尚不支持
 ### 1.3.1. Windows
 #### 1.3.1.1. 下载预编译的二进制文件
-下载Windows预编译的二进制文件```QD_1_3_win_binary.zip```，解压后直接运行。
+下载Windows预编译的二进制文件```QD_1_4_win_binary.zip```，解压后直接运行。
 #### 1.3.1.2. 使用GCC编译器编译源码
 下载[mingw64-gcc](https://sourceforge.net/projects/mingw-w64/files/latest/download)。
 
@@ -65,7 +72,7 @@ iOS尚不支持
 
 将```mingw64/bin```目录加入PATH：[方法教程](https://blog.csdn.net/Flood_Dragon/article/details/12363705)
 
-下载```QD_1_3_source```文件夹中的源码，将```make_file```文件夹中```makefile.win64.mk```复制到```source```文件夹，并修改文件名为```makefile```。
+下载```QD_1_4_source```文件夹中的源码，将```make_file```文件夹中```makefile.win64.mk```复制到```source```文件夹，并修改文件名为```makefile```。
 
 在当前目录下启动命令提示符或PowerShell，运行```mingw32-make```，编译完成将在当前目录下生成```QD.exe```二进制文件。
 
@@ -73,28 +80,28 @@ iOS尚不支持
 #### 1.3.1.3. 使用Microsoft Visual Studio编译源码
 下载[Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/zh-hans/downloads/)。
 
-下载```QD_1_3_source```文件夹中的源码，通过文本编辑器（如：[Visual Studio Code](https://code.visualstudio.com/), [Vim](https://www.vim.org/), [Notepad++](https://notepad-plus-plus.org/)等）将源码的文字编码由UTF-8改为GBK。
+下载```QD_1_4_source```文件夹中的源码，通过文本编辑器（如：[Visual Studio Code](https://code.visualstudio.com/), [Vim](https://www.vim.org/), [Notepad++](https://notepad-plus-plus.org/)等）将源码的文字编码由UTF-8改为GBK。
 
 使用Microsoft Visual Studio新建空项目，将源码的.cpp文件和.h文件分别导入空项目，然后编译整个项目，编译完成将生成二进制文件。
 ### 1.3.2. Linux
 #### 1.3.2.1. 下载预编译的二进制文件
-下载Linux预编译的二进制文件```QD_1_3_linux_binary.tar.gz```
+下载Linux预编译的二进制文件```QD_1_4_linux_binary.tar.gz```
 
-使用```tar -zxvf QD_1_3_linux_binary.tar.gz```解压。
+使用```tar -zxvf QD_1_4_linux_binary.tar.gz```解压。
 
 进入文件夹赋予二进制文件可执行权限
 ```bash
-cd QD_1_3_linux_binary
+cd QD_1_4_linux_binary
 chmod +x QD
 ```
 
 使用```./QD```启动软件
 
-也可以将```.../QD_1_3_linux_binary```目录加入PATH，直接在终端使用```QD```启动软件。
+也可以将```.../QD_1_4_linux_binary```目录加入PATH，直接在终端使用```QD```启动软件。
 #### 1.3.2.2. 使用GCC编译器编译源码
 要求安装有GCC 4.6以上版本，可以在终端中通过```gcc -v```来查看系统自带GCC编译器版本。
 
-下载```QD_1_3_source```文件夹中的源码，将```make_file```文件夹中```makefile.linux.mk```复制到```source```文件夹，并修改文件名为```makefile```。
+下载```QD_1_4_source```文件夹中的源码，将```make_file```文件夹中```makefile.linux.mk```复制到```source```文件夹，并修改文件名为```makefile```。
 
 在当前目录下启动终端，运行```make```，编译完成将在当前目录下生成```QD```二进制文件。
 
@@ -103,7 +110,7 @@ chmod +x QD
 #### 1.3.3.1. 使用Clang编译器编译源码
 要求安装有Clang 3.1以上版本，可以通过```clang --version```来查看系统自带Clang编译器版本。
 
-下载```QD_1_3_source```文件夹中的源码，将```make_file```文件夹中```makefile.macos.mk```复制到```source```文件夹，并修改文件名为```makefile```。
+下载```QD_1_4_source```文件夹中的源码，将```make_file```文件夹中```makefile.macos.mk```复制到```source```文件夹，并修改文件名为```makefile```。
 
 在当前目录下启动终端，运行```make```，编译完成将在当前目录下生成```QD```二进制文件。
 
@@ -114,17 +121,17 @@ chmod +x QD
 
 修改C4droid默认编译器为g++编译器，修改g++编译器参数```-std=c++11```或更高C++语言标准。
 
-下载```QD_1_3_android.cpp```文件，用C4droid打开，编译运行。
+下载```QD_1_4_android.cpp```文件，用C4droid打开，编译运行。
 
 
 # 2. QDynamic 量子动力学计算库
 QD使用了量子动力学计算库，计算库内提供了量子隧穿效应、过渡态理论的多个函数接口。
 
-2.1. 最新版本v1.2
+2.1. 最新版本v1.3
 --
 
 ## 2.1. 获取和使用QDynamic库
-下载```QD_1_3_source```源码中的```QDynamic.h```和```QDynamic.cpp```文件，使用时将其加入头文件中：
+下载```QD_1_4_source```源码中的```QDynamic.h```和```QDynamic.cpp```文件，使用时将其加入头文件中：
 ```c++
 #include"QDynamic.h"
 ```
