@@ -1,12 +1,12 @@
 CXXFLAGS = -O3
 CXXFLAGS += -std=c++11
 RM = rm -f
-CXX = clang++
-LD = clang++
+CXX = g++
+LD = g++
 OBJS = main.o QDApplication.o QDynamic.o
 .PHONY: clean
-QD : $(OBJS)
-	$(LD) $(OBJS) -o QD
+QTST : $(OBJS)
+	$(LD) $(OBJS) -o QTST
 main.o : main.cpp QDApplication.h QDynamic.h
 	$(CXX) -c $(CXXFLAGS) main.cpp
 QDApplication.o : QDApplication.cpp QDApplication.h QDynamic.h
@@ -14,4 +14,4 @@ QDApplication.o : QDApplication.cpp QDApplication.h QDynamic.h
 QDynamic.o : QDynamic.cpp QDynamic.h
 	$(CXX) -c $(CXXFLAGS) QDynamic.cpp
 clean:
-	$(RM) QD $(OBJS)
+	$(RM) QTST $(OBJS)
