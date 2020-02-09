@@ -1,24 +1,22 @@
 <!-- TOC -->
 
-- [1. QTST 量子过渡态理论计算软件](#1-qtst-%e9%87%8f%e5%ad%90%e8%bf%87%e6%b8%a1%e6%80%81%e7%90%86%e8%ae%ba%e8%ae%a1%e7%ae%97%e8%bd%af%e4%bb%b6)
-  - [最新版本 v1.4](#%e6%9c%80%e6%96%b0%e7%89%88%e6%9c%ac-v14)
-  - [1.1. 版本更新记录](#11-%e7%89%88%e6%9c%ac%e6%9b%b4%e6%96%b0%e8%ae%b0%e5%bd%95)
-  - [1.2. 简介](#12-%e7%ae%80%e4%bb%8b)
-  - [1.3. 安装使用方法](#13-%e5%ae%89%e8%a3%85%e4%bd%bf%e7%94%a8%e6%96%b9%e6%b3%95)
-    - [1.3.1. Windows](#131-windows)
-      - [1.3.1.1. 下载预编译的二进制文件](#1311-%e4%b8%8b%e8%bd%bd%e9%a2%84%e7%bc%96%e8%af%91%e7%9a%84%e4%ba%8c%e8%bf%9b%e5%88%b6%e6%96%87%e4%bb%b6)
-      - [1.3.1.2. 使用GCC编译器编译源码](#1312-%e4%bd%bf%e7%94%a8gcc%e7%bc%96%e8%af%91%e5%99%a8%e7%bc%96%e8%af%91%e6%ba%90%e7%a0%81)
-      - [1.3.1.3. 使用Microsoft Visual Studio编译源码](#1313-%e4%bd%bf%e7%94%a8microsoft-visual-studio%e7%bc%96%e8%af%91%e6%ba%90%e7%a0%81)
-    - [1.3.2. Linux](#132-linux)
-      - [1.3.2.1. 下载预编译的二进制文件](#1321-%e4%b8%8b%e8%bd%bd%e9%a2%84%e7%bc%96%e8%af%91%e7%9a%84%e4%ba%8c%e8%bf%9b%e5%88%b6%e6%96%87%e4%bb%b6)
-      - [1.3.2.2. 使用GCC编译器编译源码](#1322-%e4%bd%bf%e7%94%a8gcc%e7%bc%96%e8%af%91%e5%99%a8%e7%bc%96%e8%af%91%e6%ba%90%e7%a0%81)
-    - [1.3.3. MacOS](#133-macos)
-      - [1.3.3.1. 使用Clang编译器编译源码](#1331-%e4%bd%bf%e7%94%a8clang%e7%bc%96%e8%af%91%e5%99%a8%e7%bc%96%e8%af%91%e6%ba%90%e7%a0%81)
-    - [1.3.4. Android](#134-android)
-      - [1.3.4.1. 借助C4droid使用源码](#1341-%e5%80%9f%e5%8a%a9c4droid%e4%bd%bf%e7%94%a8%e6%ba%90%e7%a0%81)
-- [2. QDynamic 量子动力学计算库](#2-qdynamic-%e9%87%8f%e5%ad%90%e5%8a%a8%e5%8a%9b%e5%ad%a6%e8%ae%a1%e7%ae%97%e5%ba%93)
-  - [最新版本v1.3](#%e6%9c%80%e6%96%b0%e7%89%88%e6%9c%acv13)
-  - [2.1. 获取和使用QDynamic库](#21-%e8%8e%b7%e5%8f%96%e5%92%8c%e4%bd%bf%e7%94%a8qdynamic%e5%ba%93)
+- [1. QTST 量子过渡态理论计算软件](#1-qtst-量子过渡态理论计算软件)
+    - [1.1. 版本更新记录](#11-版本更新记录)
+    - [1.2. 简介](#12-简介)
+    - [1.3. 安装使用方法](#13-安装使用方法)
+        - [1.3.1. Windows](#131-windows)
+            - [1.3.1.1. 方法1：下载预编译的二进制文件](#1311-方法1下载预编译的二进制文件)
+            - [1.3.1.2. 方法2：使用GCC编译器编译源码](#1312-方法2使用gcc编译器编译源码)
+            - [1.3.1.3. 方法3：使用Microsoft Visual Studio编译源码](#1313-方法3使用microsoft-visual-studio编译源码)
+        - [1.3.2. Linux](#132-linux)
+            - [1.3.2.1. 方法1：下载预编译的二进制文件](#1321-方法1下载预编译的二进制文件)
+            - [1.3.2.2. 方法2：使用GCC编译器编译源码](#1322-方法2使用gcc编译器编译源码)
+        - [1.3.3. MacOS](#133-macos)
+            - [1.3.3.1. 使用Clang编译器编译源码](#1331-使用clang编译器编译源码)
+        - [1.3.4. Android](#134-android)
+            - [1.3.4.1. 借助C4droid使用源码](#1341-借助c4droid使用源码)
+- [2. QDynamic 量子动力学计算库](#2-qdynamic-量子动力学计算库)
+    - [2.1. 获取和使用QDynamic库](#21-获取和使用qdynamic库)
 
 <!-- /TOC -->
 
@@ -65,28 +63,28 @@ QTST是基于C++开发的量子过渡态理论动力学计算软件，使用C++1
 ## 1.3. 安装使用方法
 iOS尚不支持
 ### 1.3.1. Windows
-#### 1.3.1.1. 下载预编译的二进制文件
+#### 1.3.1.1. 方法1：下载预编译的二进制文件
 下载Windows预编译的二进制文件```QTST_1_4_win_binary.zip```，解压后直接运行。
-#### 1.3.1.2. 使用GCC编译器编译源码
+#### 1.3.1.2. 方法2：使用GCC编译器编译源码
 下载[mingw64-gcc](https://sourceforge.net/projects/mingw-w64/files/latest/download)。
 
 安装gcc 4.6以上版本。
 
 将```mingw64/bin```目录加入PATH：[方法教程](https://blog.csdn.net/Flood_Dragon/article/details/12363705)
 
-下载源码，将```make_file```文件夹中```makefile.win64.mk```复制到```source```文件夹，并修改文件名为```makefile```。
+下载源码，将```make_file```文件夹中```makefile.win64.mk```复制到源码文件夹，并修改文件名为```makefile```。
 
 在当前目录下启动命令提示符或PowerShell，运行```mingw32-make```，编译完成将在当前目录下生成```QTST.exe```二进制文件。
 
 运行```QTST.exe```即可。
-#### 1.3.1.3. 使用Microsoft Visual Studio编译源码
+#### 1.3.1.3. 方法3：使用Microsoft Visual Studio编译源码
 下载[Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/zh-hans/downloads/)。
 
 下载源码，通过文本编辑器（如：[Visual Studio Code](https://code.visualstudio.com/), [Vim](https://www.vim.org/), [Notepad++](https://notepad-plus-plus.org/)等）将源码的文字编码由UTF-8改为GBK。
 
 使用Microsoft Visual Studio新建空项目，将源码的.cpp文件和.h文件分别导入空项目，然后编译整个项目，编译完成将生成二进制文件。
 ### 1.3.2. Linux
-#### 1.3.2.1. 下载预编译的二进制文件
+#### 1.3.2.1. 方法1：下载预编译的二进制文件
 下载Linux预编译的二进制文件```QTST_1_4_linux_binary.tar.gz```
 
 使用```tar -zxvf QTST_1_4_linux_binary.tar.gz```解压。
@@ -100,10 +98,10 @@ chmod +x QTST
 使用```./QTST```启动软件
 
 也可以将```.../QTST_1_4_linux_binary```目录加入PATH，直接在终端使用```QTST```启动软件。
-#### 1.3.2.2. 使用GCC编译器编译源码
+#### 1.3.2.2. 方法2：使用GCC编译器编译源码
 要求安装有GCC 4.6以上版本，可以在终端中通过```gcc -v```来查看系统自带GCC编译器版本。
 
-下载源码，将```make_file```文件夹中```makefile.linux.mk```复制到```source```文件夹，并修改文件名为```makefile```。
+下载源码，将```make_file```文件夹中```makefile.linux.mk```复制到源码文件夹，并修改文件名为```makefile```。
 
 在当前目录下启动终端，运行```make```，编译完成将在当前目录下生成```QTST```二进制文件。
 
@@ -112,7 +110,7 @@ chmod +x QTST
 #### 1.3.3.1. 使用Clang编译器编译源码
 要求安装有Clang 3.1以上版本，可以通过```clang --version```来查看系统自带Clang编译器版本。
 
-下载源码，将```make_file```文件夹中```makefile.macos.mk```复制到```source```文件夹，并修改文件名为```makefile```。
+下载源码，将```make_file```文件夹中```makefile.macos.mk```复制到源码文件夹，并修改文件名为```makefile```。
 
 在当前目录下启动终端，运行```make```，编译完成将在当前目录下生成```QTST```二进制文件。
 
