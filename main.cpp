@@ -230,7 +230,7 @@ int main()
 
                 std::cout<<"====================================================="<<std::endl;
                 std::cout<<"\t\t*请输入配分函数Q*"<<std::endl;
-                std::cout<<"配分函数以mol-1为单位，不含零点能ZPE成分，即Q(V=0)"<<std::endl;
+                std::cout<<"配分函数不含零点能ZPE成分，即Q(V=0)"<<std::endl;
                 std::cout<<"Q(V=0,过渡态)=";
                 double Q_TS;
                 std::cin>>Q_TS;
@@ -398,7 +398,7 @@ int main()
 
                 std::cout<<"====================================================="<<std::endl;
                 std::cout<<"\t\t*请输入配分函数Q*"<<std::endl;
-                std::cout<<"配分函数以mol-1为单位，不含零点能ZPE成分，即Q(V=0)"<<std::endl;
+                std::cout<<"配分函数不含零点能ZPE成分，即Q(V=0)"<<std::endl;
                 std::cout<<"Q(V=0,过渡态)=";
                 double Q_TS;
                 std::cin>>Q_TS;

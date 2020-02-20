@@ -171,8 +171,8 @@ Dynamic_Single::Dynamic_Single(double temperature,double sigma,double kapa,doubl
     std::cout<<"量子隧穿效应透射系数κ="<<Kapa<<std::endl;
     std::cout<<"生成过渡态的Gibbs自由能ΔG=nan"<<std::endl;
     std::cout<<"生成过渡态的能垒ΔU="<<Barrier<<" kJ/mol"<<std::endl;
-    std::cout<<"过渡态的配分函数Q(V=0,TS)="<<PartitionFunction_TS<<" mol-1"<<std::endl;
-    std::cout<<"反应物A的配分函数Q(V=0,A)="<<PartitionFunction_A<<" mol-1"<<std::endl;
+    std::cout<<"过渡态的配分函数Q(V=0,TS)="<<PartitionFunction_TS<<std::endl;
+    std::cout<<"反应物A的配分函数Q(V=0,A)="<<PartitionFunction_A<<std::endl;
     std::cout<<"====================================================="<<std::endl;
     std::cout<<std::endl;
 }
@@ -190,8 +190,8 @@ Dynamic_Single::Dynamic_Single(double temperature,double sigma,double kapa,doubl
     std::cout<<"量子隧穿效应透射系数κ="<<Kapa<<std::endl;
     std::cout<<"生成过渡态的Gibbs自由能ΔG="<<FreeEnergy<<" kJ/mol"<<std::endl;
     std::cout<<"生成过渡态的能垒ΔU="<<Barrier<<" kJ/mol"<<std::endl;
-    std::cout<<"过渡态的配分函数Q(V=0,TS)="<<PartitionFunction_TS<<" mol-1"<<std::endl;
-    std::cout<<"反应物A的配分函数Q(V=0,A)="<<PartitionFunction_A<<" mol-1"<<std::endl;
+    std::cout<<"过渡态的配分函数Q(V=0,TS)="<<PartitionFunction_TS<<std::endl;
+    std::cout<<"反应物A的配分函数Q(V=0,A)="<<PartitionFunction_A<<std::endl;
     std::cout<<"====================================================="<<std::endl;
     std::cout<<std::endl;
 }
@@ -234,9 +234,9 @@ Dynamic_Double::Dynamic_Double(double pressure,double temperature,double sigma,d
     std::cout<<"量子隧穿效应透射系数κ="<<Kapa<<std::endl;
     std::cout<<"生成过渡态的Gibbs自由能ΔG=nan"<<std::endl;
     std::cout<<"生成过渡态的能垒ΔU="<<Barrier<<" kJ/mol"<<std::endl;
-    std::cout<<"过渡态的配分函数Q(V=0,TS)="<<PartitionFunction_TS<<" mol-1"<<std::endl;
-    std::cout<<"反应物A的配分函数Q(V=0,A)="<<PartitionFunction_A<<" mol-1"<<std::endl;
-    std::cout<<"反应物B的配分函数Q(V=0,B)="<<PartitionFunction_B<<" mol-1"<<std::endl;
+    std::cout<<"过渡态的配分函数Q(V=0,TS)="<<PartitionFunction_TS<<std::endl;
+    std::cout<<"反应物A的配分函数Q(V=0,A)="<<PartitionFunction_A<<std::endl;
+    std::cout<<"反应物B的配分函数Q(V=0,B)="<<PartitionFunction_B<<std::endl;
     std::cout<<"====================================================="<<std::endl;
     std::cout<<std::endl;
 }
@@ -255,9 +255,9 @@ Dynamic_Double::Dynamic_Double(double pressure,double temperature,double sigma,d
     std::cout<<"量子隧穿效应透射系数κ="<<Kapa<<std::endl;
     std::cout<<"生成过渡态的Gibbs自由能ΔG="<<FreeEnergy<<" kJ/mol"<<std::endl;
     std::cout<<"生成过渡态的能垒ΔU="<<Barrier<<" kJ/mol"<<std::endl;
-    std::cout<<"过渡态的配分函数Q(V=0,TS)="<<PartitionFunction_TS<<" mol-1"<<std::endl;
-    std::cout<<"反应物A的配分函数Q(V=0,A)="<<PartitionFunction_A<<" mol-1"<<std::endl;
-    std::cout<<"反应物B的配分函数Q(V=0,B)="<<PartitionFunction_B<<" mol-1"<<std::endl;
+    std::cout<<"过渡态的配分函数Q(V=0,TS)="<<PartitionFunction_TS<<std::endl;
+    std::cout<<"反应物A的配分函数Q(V=0,A)="<<PartitionFunction_A<<std::endl;
+    std::cout<<"反应物B的配分函数Q(V=0,B)="<<PartitionFunction_B<<std::endl;
     std::cout<<"====================================================="<<std::endl;
     std::cout<<std::endl;
 }
