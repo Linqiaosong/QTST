@@ -1,5 +1,5 @@
 //Author Qiaosong Lin, Wuhan University, 2019 
-//2019-08-11    更新了提示信息 
+//2020-05-28    更新了提示信息 
 
 
 #include<iostream>

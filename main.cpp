@@ -1,5 +1,5 @@
 //Author Qiaosong Lin, Wuhan University, 2019 
-//2019-08-11    更新了提示信息 
+//2020-05-28    更新了提示信息 
 
 
 
@@ -313,21 +313,8 @@ int main()
 
 
 
-            std::cout<<"====================================================="<<std::endl;
-            std::cout<<"\t\t*请输入压强p*"<<std::endl;
-            std::cout<<"压强数值与单位之间用一个空格隔开，单位用标号表示"<<std::endl;
-            std::cout<<"支持单位：\n[1] 标准压强(bar)\n[2] 帕斯卡(Pa)\n[3] 大气压(atm)"<<std::endl;
-            std::cout<<"例：101325 Pa输入：101325 2\np=";
-            double p;
-            int unitp;
-            std::cin>>p>>unitp;
-            switch(unitp)
-            {
-                case 1: break;
-                case 2: p=Ppa2bar(p);    break;
-                case 3: p=Patm2bar(p);    break;
-                default: return 1;
-            }
+            double p=1.0;
+
 
 
             std::cout<<"====================================================="<<std::endl;

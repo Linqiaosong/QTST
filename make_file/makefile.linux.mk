@@ -1,5 +1,6 @@
 CXXFLAGS = -O3
 CXXFLAGS += -std=c++11
+CXXFLAGS += -static
 RM = rm -f
 CXX = g++
 LD = g++

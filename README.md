@@ -31,7 +31,6 @@ v1.4
 * 更新了UI，更正了一些错误显示
 * 更新了使用手册，在```manual```文件夹下
     * ```manual.md```手册需要使用安装了Markdown All in One插件的Visual Studio Code查看。
-    * ```manual.html```
     * ```manual.pdf```
 
 v1.3

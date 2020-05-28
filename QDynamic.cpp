@@ -8,7 +8,7 @@
 /******************************************************
 *                                                     *
 *   最新修改记录:                                      *
-*   2019-08-11    更新了构造函数提示的输入信息           *
+*   2020-05-28    更新了构造函数提示的输入信息           *
 *                                                     *
 *******************************************************/
 
@@ -208,7 +208,7 @@ Dynamic_Double::Dynamic_Double(double pressure,double temperature,double sigma,d
 {
     std::cout<<"====================================================="<<std::endl;
     std::cout<<"\t\t*计算双分子反应速率常数输入信息*"<<std::endl;
-    std::cout<<"压强p="<<Pressure<<" bar"<<std::endl;
+    std::cout<<"参考态压强p0="<<Pressure<<" bar"<<std::endl;
     std::cout<<"温度T="<<Temperature<<" K"<<std::endl;
     std::cout<<"反应路径简并数σ="<<Sigma<<std::endl;
     std::cout<<"量子隧穿效应透射系数κ="<<Kapa<<std::endl;
@@ -228,7 +228,7 @@ Dynamic_Double::Dynamic_Double(double pressure,double temperature,double sigma,d
 {
     std::cout<<"====================================================="<<std::endl;
     std::cout<<"\t\t*计算双分子反应速率常数输入信息*"<<std::endl;
-    std::cout<<"压强p="<<Pressure<<" bar"<<std::endl;
+    std::cout<<"参考态压强p0="<<Pressure<<" bar"<<std::endl;
     std::cout<<"温度T="<<Temperature<<" K"<<std::endl;
     std::cout<<"反应路径简并数σ="<<Sigma<<std::endl;
     std::cout<<"量子隧穿效应透射系数κ="<<Kapa<<std::endl;
@@ -249,7 +249,7 @@ Dynamic_Double::Dynamic_Double(double pressure,double temperature,double sigma,d
 {
     std::cout<<"====================================================="<<std::endl;
     std::cout<<"\t\t*计算双分子反应速率常数输入信息*"<<std::endl;
-    std::cout<<"压强p="<<Pressure<<" bar"<<std::endl;
+    std::cout<<"参考态压强p0="<<Pressure<<" bar"<<std::endl;
     std::cout<<"温度T="<<Temperature<<" K"<<std::endl;
     std::cout<<"反应路径简并数σ="<<Sigma<<std::endl;
     std::cout<<"量子隧穿效应透射系数κ="<<Kapa<<std::endl;

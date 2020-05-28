@@ -30,3 +30,4 @@
 *.exe
 *.out
 *.app
+make_file/makefile.linux.mk

@@ -1,6 +1,7 @@
 CXXFLAGS = -O3
 CXXFLAGS += -std=c++11
 CXXFLAGS += -fexec-charset=gbk
+CXXFLAGS += -static
 RM = del
 CXX = g++
 LD = g++
