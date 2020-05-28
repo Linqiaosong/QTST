@@ -331,7 +331,7 @@ public:
 
 
 private:
-    double Pressure;    // 双分子反应压强
+    double Pressure;    // 双分子反应参考态压强
     double PartitionFunction_A; // 双分子反应反应物A的配分函数
     double PartitionFunction_B; // 双分子反应反应物B的配分函数
 };
